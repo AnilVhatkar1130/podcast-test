@@ -12,7 +12,7 @@ jobs:
           python-version: '3.13.2'
       - name: Install Dependncies
         run: |
-          python -m pip installl --update pip
+          python -m pip install --update pip
           pip install pyyaml
       - name: Run Feed Generator
         run: python fee.py
